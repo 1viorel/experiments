@@ -1,0 +1,17 @@
+<a routerLink="/fancy-hover">
+  <div class="h-80 w-80 bg-gray-900 rounded-xl border border-gray-700">
+    <div class="h-44 relative">
+      <img
+        ngSrc="{{ image }}"
+        fill
+        alt="missing"
+        class="relative rounded-t-xl bg-white" />
+    </div>
+    <div class="px-6 py-2 h-36 flex flex-col justify-center">
+      <h2 class="font-bold tracking-wide pl-4 pb-2">{{ title }}</h2>
+      <p class="text-gray-400">
+        {{ body }}
+      </p>
+    </div>
+  </div>
+</a>
