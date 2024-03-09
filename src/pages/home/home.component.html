@@ -1,8 +1,8 @@
 <h1 class="text-center p-12 font-bold text-4xl tracking-wider">
   This is a place where I try different experiments
 </h1>
-<div class="w-full flex flex-row justify-center">
-  <div class="grid grid-cols-3 gap-1 w-[1160px]">
+<div class="w-full">
+  <div class="flex flex-row flex-wrap justify-center gap-2">
     @for (card of cards; track $index) {
       <app-home-card title="{{ card.title }}" body="{{ card.body }}" />
     }

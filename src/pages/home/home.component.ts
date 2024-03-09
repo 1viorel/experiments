@@ -36,5 +36,10 @@ export class HomeComponent {
       body: 'This is the body of card 5',
       image: 'https://via.placeholder.com/150',
     },
+    {
+      title: 'Card 5',
+      body: 'This is the body of card 5',
+      image: 'https://via.placeholder.com/150',
+    },
   ];
 }
