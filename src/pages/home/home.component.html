@@ -2,4 +2,6 @@
   This is a place where I try different experiments
 </h1>
 
-<app-home-card />
+@for (card of cards; track $index) {
+  <app-home-card title="{{ card.title }}" body="{{ card.body }}" />
+}
